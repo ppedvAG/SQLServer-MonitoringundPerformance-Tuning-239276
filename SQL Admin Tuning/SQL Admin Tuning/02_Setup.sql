@@ -5,7 +5,9 @@
 
 jede Vergrößerung verbraucht eigtl die doppelte Schreibarbeit
 da Windows zuerst die Dateien vergrößert und mit 0 beschreibt
-eigtl ein Sicherheitsfeature: Lokaler Sicherheitsrichtlinien.. Zuweisen von Benutzerrechten
+eigtl ein Sicherheitsfeature: Lokaler Sicherheitsrichtlinien.. 
+Zuweisen von Benutzerrechten
+-->SQL Dienstkonto bei Durchführen von Voluemwartungsuafgaben einsetzen
 ----------------------
 0101010110101111111111
 ----------------------
@@ -14,7 +16,7 @@ aktiviert man den Volumewartungstask dann kann SQL Server eigenständig vergrößer
 ohne vorher ausnullen-- schneller,
 
 -->IO reduzieren! Aber einem guten Admin ist das wurst! ;-) Siehe DB Settings
-
+--aber auch bei Restore!
 
 Frage nach Verzeichnissen  :
 Trenne Log von Daten physikalisch (HDDs) !!
